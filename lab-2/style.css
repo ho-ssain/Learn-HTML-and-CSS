@@ -1,8 +1,12 @@
 body {
   font-family: sans-serif;
   color: black;
-  border: 3px solid black;
   font-size: 18px;
+  line-height: 1.4;
+}
+
+article {
+  border: 3px solid black;
 }
 
 .main-header {
@@ -54,6 +58,14 @@ ul {
 
 button {
   background-color: rgba(0, 0, 0, 0.624);
+  border: none;
   color: azure;
   font-size: 20px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgba(0, 0, 0, 0.241);
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
 }
