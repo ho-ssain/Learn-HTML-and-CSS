@@ -1,0 +1,59 @@
+body {
+  font-family: sans-serif;
+  color: black;
+  border: 3px solid black;
+  font-size: 18px;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#p1 {
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+  color: #741326;
+}
+
+#p2 {
+  font-size: 15px;
+  color: rgba(48, 50, 51, 0.506);
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
+}
+
+a:active {
+  background-color: rgba(0, 0, 0, 0.399);
+  font-style: italic;
+}
+
+ul {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+button {
+  background-color: rgba(0, 0, 0, 0.624);
+  color: azure;
+  font-size: 20px;
+}

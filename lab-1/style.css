@@ -1,9 +1,14 @@
-h1,
+/* h1,
 h2,
 h3,
 h4,
 p,
 li {
+  font-family: sans-serif;
+  color: #444444;
+} */
+
+body {
   font-family: sans-serif;
   color: #444444;
 }
@@ -124,3 +129,24 @@ a:active {
   font-style: italic;
 }
 /* --------------------------------------------- */
+
+/* Resolving Conflicts */
+/* #copyright {
+  color: red;
+}
+
+.cpr {
+  color: greenyellow;
+}
+
+.cprText {
+  color: blueviolet;
+}
+
+footer p {
+  color: springgreen;
+} */
+
+nav {
+  font-size: 16px;
+}
