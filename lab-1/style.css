@@ -1,0 +1,126 @@
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+  font-family: sans-serif;
+  color: #444444;
+}
+
+h2,
+h3,
+h4 {
+  color: #012d7a81;
+}
+
+h1 {
+  color: #135169;
+  font-size: 35px;
+  text-transform: initial;
+  font-style: italic;
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+li {
+  font-size: 16px;
+}
+
+#author {
+  font-style: italic;
+  font-size: 14px;
+}
+
+#copyright {
+  text-align: right;
+  font-size: 14px;
+  font-style: italic;
+  color: rgba(48, 50, 51, 0.513);
+}
+
+.related-author {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.Related-posts {
+  list-style: none;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #012d7a81;
+  border-bottom: 5px solid #012d7a81;
+}
+
+/* li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+} */
+
+/* li:nth-child(2) {
+  color: tomato;
+} */
+
+li:nth-child(odd) {
+  color: #8e5757;
+  font-style: italic;
+}
+
+li:nth-child(even) {
+  color: #4d4d87;
+  font-style: italic;
+}
+
+/* article p:last-child {
+  color: red;
+} */
+
+/* --------------------lhva------------------- */
+
+a:link {
+  color: #135169;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #135169;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
+}
+
+a:active {
+  background-color: rgba(0, 0, 0, 0.418);
+  font-style: italic;
+}
+/* --------------------------------------------- */
