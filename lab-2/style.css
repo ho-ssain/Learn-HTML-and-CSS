@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: sans-serif;
   color: black;
@@ -5,18 +10,26 @@ body {
   line-height: 1.4;
 }
 
-article {
+.container {
   border: 3px solid black;
+  width: 825px;
+  margin: 100px auto;
 }
 
 .main-header {
-  background-color: #f7f7f7;
+  background-color: hsl(0, 0%, 89%);
+  padding: 15px;
 }
 
 h1 {
   font-size: 30px;
   font-weight: bold;
   text-align: center;
+}
+
+h3 {
+  margin-top: 30px;
+  margin-bottom: 15px;
 }
 
 #p1 {
@@ -28,7 +41,8 @@ h1 {
 
 #p2 {
   font-size: 15px;
-  color: rgba(48, 50, 51, 0.506);
+  color: rgba(6, 41, 58, 0.922);
+  margin-bottom: 20px;
 }
 
 a:link {
@@ -54,14 +68,23 @@ a:active {
 ul {
   font-weight: bold;
   font-size: 16px;
+  margin-bottom: 15px;
+  margin-left: 30px;
+}
+
+ul li {
+  margin-bottom: 10px;
 }
 
 button {
-  background-color: rgba(0, 0, 0, 0.624);
+  background-color: rgba(0, 0, 0, 0.9);
   border: none;
   color: azure;
   font-size: 20px;
   cursor: pointer;
+  width: 100%;
+  padding: 10px 0;
+  border-top: 3px solid black;
 }
 button:hover {
   background-color: rgba(0, 0, 0, 0.241);
